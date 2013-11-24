@@ -1,0 +1,628 @@
+TLookAndSayProgressive
+v7
+r0
+t307129657.920563
+cCheck dependencies
+cCompileC build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/x86_64/main.o /Users/keithm/Code/LookAndSayProgressive/main.c normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/x86_64/algorithm.o /Users/keithm/Code/LookAndSayProgressive/algorithm.c normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/x86_64/expcurve.o /Users/keithm/Code/LookAndSayProgressive/expcurve.c normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/x86_64/powercurve.o /Users/keithm/Code/LookAndSayProgressive/powercurve.c normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/x86_64/util.o /Users/keithm/Code/LookAndSayProgressive/util.c normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/x86_64/reverse.o /Users/keithm/Code/LookAndSayProgressive/reverse.c normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/x86_64/genes.o /Users/keithm/Code/LookAndSayProgressive/genes.c normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/x86_64/test.o /Users/keithm/Code/LookAndSayProgressive/test.c normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/x86_64/hashtable.o /Users/keithm/Code/LookAndSayProgressive/hashtable.c normal x86_64 c com.apple.compilers.gcc.4_2
+cLd /Users/keithm/Code/LookAndSayProgressive/build/Release/LookAndSayProgressive normal x86_64
+cGenerateDSYMFile /Users/keithm/Code/LookAndSayProgressive/build/Release/LookAndSayProgressive.dSYM /Users/keithm/Code/LookAndSayProgressive/build/Release/LookAndSayProgressive
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004C5342BA00000000000000EE
+t1280524986
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/math.h
+c000000004AC599B500000000000004F1
+t1254463925
+s1265
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004AC59C820000000000004174
+t1254464642
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
+c000000004AC59C820000000000002DF5
+t1254464642
+s11765
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h
+c000000004AC59C820000000000001731
+t1254464642
+s5937
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/timeb.h
+c000000004C4DE4B400000000000010C2
+t1280173236
+s4290
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/time.h
+c000000004AC59C82000000000000178E
+t1254464642
+s6030
+
+N/Users/keithm/Code/LookAndSayProgressive/algorithm.c
+c000000004C976B16000000000000097C
+t1284991766
+s2428
+i<stdio.h>
+i<stdlib.h>
+i<math.h>
+i"util.h"
+i"algorithm.h"
+
+N/Users/keithm/Code/LookAndSayProgressive/algorithm.h
+c000000004C9714BD00000000000003EE
+t1284969661
+s1006
+
+N/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/i386/LookAndSayProgressive
+t2
+s0
+
+N/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/i386/LookAndSayProgressive.LinkFileList
+c000000004C9629C000000000000002C1
+t1284909504
+s705
+
+N/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/i386/algorithm.o
+t1284909504
+s6612
+
+N/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/i386/expcurve.o
+t1284909504
+s5024
+
+N/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/i386/main.o
+t1284909504
+s7832
+
+N/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/i386/powercurve.o
+t1284909504
+s5068
+
+N/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/i386/util.o
+t1284909504
+s5340
+
+N/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/ppc/LookAndSayProgressive
+t2
+s0
+
+N/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/ppc/LookAndSayProgressive.LinkFileList
+c000000004C9629C000000000000002BC
+t1284909504
+s700
+
+N/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/ppc/algorithm.o
+t1284909506
+s6844
+
+N/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/ppc/expcurve.o
+t1284909506
+s5052
+
+N/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/ppc/main.o
+t1284909505
+s9148
+
+N/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/ppc/powercurve.o
+t1284909506
+s5140
+
+N/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/ppc/util.o
+t1284909506
+s5704
+
+N/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/x86_64/LookAndSayProgressive
+t1284909650
+s17320
+
+N/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/x86_64/LookAndSayProgressive.LinkFileList
+c000000004C9DEA5E0000000000000504
+t1285417566
+s1284
+
+N/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/x86_64/algorithm.o
+t1285413706
+s7844
+
+N/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/x86_64/expcurve.o
+t1284929316
+s6980
+
+N/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/x86_64/genes.o
+t1285436857
+s27664
+
+N/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/x86_64/hashtable.o
+t1285418456
+s13712
+
+N/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/x86_64/main.o
+t1285435911
+s9144
+
+N/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/x86_64/powercurve.o
+t1284929316
+s6632
+
+N/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/x86_64/reverse.o
+t1285413706
+s7640
+
+N/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/x86_64/test.o
+t1285413706
+s9668
+
+N/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/x86_64/util.o
+t1285413706
+s12140
+
+N/Users/keithm/Code/LookAndSayProgressive/build/Release/LookAndSayProgressive
+t1285436857
+s39712
+
+N/Users/keithm/Code/LookAndSayProgressive/build/Release/LookAndSayProgressive.dSYM
+t1285436857
+s102
+
+N/Users/keithm/Code/LookAndSayProgressive/expcurve.c
+c000000004C938EB80000000000000847
+t1284738744
+s2119
+i<stdio.h>
+i<math.h>
+i<gsl/gsl_fit.h>
+
+N/Users/keithm/Code/LookAndSayProgressive/expcurve.h
+c000000004C93793000000000000001D3
+t1284733232
+s467
+
+N/Users/keithm/Code/LookAndSayProgressive/genes.c
+c000000004C9E36410000000000002286
+t1285436993
+s8838
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i"genes.h"
+i"hashtable.h"
+
+N/Users/keithm/Code/LookAndSayProgressive/genes.h
+c000000004C9E3207000000000000037E
+t1285435911
+s894
+
+N/Users/keithm/Code/LookAndSayProgressive/hashtable.c
+c000000004C9DEDA60000000000002343
+t1285418406
+s9027
+i"hashtable.h"
+i"hashtable_private.h"
+i<stdlib.h>
+i<stdio.h>
+i<string.h>
+i<math.h>
+
+N/Users/keithm/Code/LookAndSayProgressive/hashtable.h
+c000000004C9DED810000000000001CD2
+t1285418369
+s7378
+
+N/Users/keithm/Code/LookAndSayProgressive/hashtable_private.h
+c000000004C9DEDA30000000000000B93
+t1285418403
+s2963
+i"hashtable.h"
+
+N/Users/keithm/Code/LookAndSayProgressive/main.c
+c000000004C9E31BE000000000000163E
+t1285435838
+s5694
+i<windows.h>
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i"util.h"
+i"algorithm.h"
+i"expcurve.h"
+i"genes.h"
+
+N/Users/keithm/Code/LookAndSayProgressive/powercurve.c
+c000000004C9379320000000000000C73
+t1284733234
+s3187
+i<stdio.h>
+i<math.h>
+i<gsl/gsl_fit.h>
+
+N/Users/keithm/Code/LookAndSayProgressive/reverse.c
+c000000004C976B230000000000000A8B
+t1284991779
+s2699
+i<stdio.h>
+i<stdlib.h>
+i<math.h>
+i"util.h"
+i"algorithm.h"
+
+N/Users/keithm/Code/LookAndSayProgressive/test.c
+c000000004C98A76800000000000005BD
+t1285072744
+s1469
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i"util.h"
+i"algorithm.h"
+i"expcurve.h"
+
+N/Users/keithm/Code/LookAndSayProgressive/util.c
+c000000004C9C540300000000000007E8
+t1285313539
+s2024
+i<stdio.h>
+i<stdlib.h>
+i<time.h>
+i<sys/timeb.h>
+i"algorithm.h"
+
+N/Users/keithm/Code/LookAndSayProgressive/util.h
+c000000004C9C540300000000000001EA
+t1285313539
+s490
+i<stdio.h>
+i<time.h>
+i<sys/timeb.h>
+i"algorithm.h"
+
+N/usr/local/include/gsl/gsl_fit.h
+c000000004C94B3B50000000000000ACC
+t1284813749
+s2764
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies307129657#307129657#0(0"0(0#1#0"8625841088#0"0#
+
+CCompileC build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/i386/algorithm.o /Users/keithm/Code/LookAndSayProgressive/algorithm.c normal i386 c com.apple.compilers.gcc.4_2
+s306602304.413139
+e306602304.729096
+r1
+xCompileC
+xbuild/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/i386/algorithm.o
+x/Users/keithm/Code/LookAndSayProgressive/algorithm.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/keithm/Code/LookAndSayProgressive/algorithm.c306602304#306602304#0(0"0(0#0#52"/Users/keithm/Code/LookAndSayProgressive/algorithm.c8629834944#1646"    cd /Users/keithm/Code/LookAndSayProgressive    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-generated-files.hmap -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-own-target-headers.hmap -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-all-target-headers.hmap -iquote /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-project-headers.hmap -F/Users/keithm/Code/LookAndSayProgressive/build/Release -I/Users/keithm/Code/LookAndSayProgressive/build/Release/include -I/sw/local/include -I/opt/local/include -I/usr/local/include -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/DerivedSources/i386 -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/DerivedSources -c /Users/keithm/Code/LookAndSayProgressive/algorithm.c -o /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/i386/algorithm.o0#
+
+CCompileC build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/i386/expcurve.o /Users/keithm/Code/LookAndSayProgressive/expcurve.c normal i386 c com.apple.compilers.gcc.4_2
+s306602304.413796
+e306602304.699817
+r1
+xCompileC
+xbuild/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/i386/expcurve.o
+x/Users/keithm/Code/LookAndSayProgressive/expcurve.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/keithm/Code/LookAndSayProgressive/expcurve.c306602304#306602304#0(0"0(0#0#51"/Users/keithm/Code/LookAndSayProgressive/expcurve.c8629488640#1644"    cd /Users/keithm/Code/LookAndSayProgressive    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-generated-files.hmap -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-own-target-headers.hmap -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-all-target-headers.hmap -iquote /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-project-headers.hmap -F/Users/keithm/Code/LookAndSayProgressive/build/Release -I/Users/keithm/Code/LookAndSayProgressive/build/Release/include -I/sw/local/include -I/opt/local/include -I/usr/local/include -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/DerivedSources/i386 -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/DerivedSources -c /Users/keithm/Code/LookAndSayProgressive/expcurve.c -o /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/i386/expcurve.o0#
+
+CCompileC build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/i386/main.o /Users/keithm/Code/LookAndSayProgressive/main.c normal i386 c com.apple.compilers.gcc.4_2
+s306602304.412451
+e306602304.728837
+r1
+xCompileC
+xbuild/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/i386/main.o
+x/Users/keithm/Code/LookAndSayProgressive/main.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/keithm/Code/LookAndSayProgressive/main.c306602304#306602304#0(0"0(0#0#47"/Users/keithm/Code/LookAndSayProgressive/main.c8630225984#1636"    cd /Users/keithm/Code/LookAndSayProgressive    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-generated-files.hmap -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-own-target-headers.hmap -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-all-target-headers.hmap -iquote /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-project-headers.hmap -F/Users/keithm/Code/LookAndSayProgressive/build/Release -I/Users/keithm/Code/LookAndSayProgressive/build/Release/include -I/sw/local/include -I/opt/local/include -I/usr/local/include -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/DerivedSources/i386 -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/DerivedSources -c /Users/keithm/Code/LookAndSayProgressive/main.c -o /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/i386/main.o0#
+
+CCompileC build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/i386/powercurve.o /Users/keithm/Code/LookAndSayProgressive/powercurve.c normal i386 c com.apple.compilers.gcc.4_2
+s306602304.688025
+e306602304.790878
+r1
+xCompileC
+xbuild/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/i386/powercurve.o
+x/Users/keithm/Code/LookAndSayProgressive/powercurve.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/keithm/Code/LookAndSayProgressive/powercurve.c306602304#306602304#0(0"0(0#0#53"/Users/keithm/Code/LookAndSayProgressive/powercurve.c8675218688#1648"    cd /Users/keithm/Code/LookAndSayProgressive    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-generated-files.hmap -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-own-target-headers.hmap -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-all-target-headers.hmap -iquote /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-project-headers.hmap -F/Users/keithm/Code/LookAndSayProgressive/build/Release -I/Users/keithm/Code/LookAndSayProgressive/build/Release/include -I/sw/local/include -I/opt/local/include -I/usr/local/include -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/DerivedSources/i386 -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/DerivedSources -c /Users/keithm/Code/LookAndSayProgressive/powercurve.c -o /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/i386/powercurve.o0#
+
+CCompileC build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/i386/util.o /Users/keithm/Code/LookAndSayProgressive/util.c normal i386 c com.apple.compilers.gcc.4_2
+s306602304.692816
+e306602304.759023
+r1
+xCompileC
+xbuild/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/i386/util.o
+x/Users/keithm/Code/LookAndSayProgressive/util.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/keithm/Code/LookAndSayProgressive/util.c306602304#306602304#0(0"0(0#0#47"/Users/keithm/Code/LookAndSayProgressive/util.c8633251456#1636"    cd /Users/keithm/Code/LookAndSayProgressive    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-generated-files.hmap -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-own-target-headers.hmap -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-all-target-headers.hmap -iquote /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-project-headers.hmap -F/Users/keithm/Code/LookAndSayProgressive/build/Release -I/Users/keithm/Code/LookAndSayProgressive/build/Release/include -I/sw/local/include -I/opt/local/include -I/usr/local/include -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/DerivedSources/i386 -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/DerivedSources -c /Users/keithm/Code/LookAndSayProgressive/util.c -o /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/i386/util.o0#
+
+CCompileC build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/ppc/algorithm.o /Users/keithm/Code/LookAndSayProgressive/algorithm.c normal ppc c com.apple.compilers.gcc.4_2
+s306602304.699916
+e306602306.023946
+r1
+xCompileC
+xbuild/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/ppc/algorithm.o
+x/Users/keithm/Code/LookAndSayProgressive/algorithm.c
+xnormal
+xppc
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/keithm/Code/LookAndSayProgressive/algorithm.c306602304#306602306#0(0"0(0#0#52"/Users/keithm/Code/LookAndSayProgressive/algorithm.c8632523488#1653"    cd /Users/keithm/Code/LookAndSayProgressive    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-generated-files.hmap -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-own-target-headers.hmap -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-all-target-headers.hmap -iquote /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-project-headers.hmap -F/Users/keithm/Code/LookAndSayProgressive/build/Release -I/Users/keithm/Code/LookAndSayProgressive/build/Release/include -I/sw/local/include -I/opt/local/include -I/usr/local/include -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/DerivedSources/ppc -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/DerivedSources -c /Users/keithm/Code/LookAndSayProgressive/algorithm.c -o /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/ppc/algorithm.o0#
+
+CCompileC build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/ppc/expcurve.o /Users/keithm/Code/LookAndSayProgressive/expcurve.c normal ppc c com.apple.compilers.gcc.4_2
+s306602304.727312
+e306602306.022705
+r1
+xCompileC
+xbuild/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/ppc/expcurve.o
+x/Users/keithm/Code/LookAndSayProgressive/expcurve.c
+xnormal
+xppc
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/keithm/Code/LookAndSayProgressive/expcurve.c306602304#306602306#0(0"0(0#0#51"/Users/keithm/Code/LookAndSayProgressive/expcurve.c8631562720#1651"    cd /Users/keithm/Code/LookAndSayProgressive    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-generated-files.hmap -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-own-target-headers.hmap -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-all-target-headers.hmap -iquote /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-project-headers.hmap -F/Users/keithm/Code/LookAndSayProgressive/build/Release -I/Users/keithm/Code/LookAndSayProgressive/build/Release/include -I/sw/local/include -I/opt/local/include -I/usr/local/include -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/DerivedSources/ppc -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/DerivedSources -c /Users/keithm/Code/LookAndSayProgressive/expcurve.c -o /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/ppc/expcurve.o0#
+
+CCompileC build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/ppc/main.o /Users/keithm/Code/LookAndSayProgressive/main.c normal ppc c com.apple.compilers.gcc.4_2
+s306602304.694751
+e306602305.921634
+r1
+xCompileC
+xbuild/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/ppc/main.o
+x/Users/keithm/Code/LookAndSayProgressive/main.c
+xnormal
+xppc
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/keithm/Code/LookAndSayProgressive/main.c306602304#306602305#0(0"0(0#0#47"/Users/keithm/Code/LookAndSayProgressive/main.c8633017280#1643"    cd /Users/keithm/Code/LookAndSayProgressive    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-generated-files.hmap -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-own-target-headers.hmap -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-all-target-headers.hmap -iquote /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-project-headers.hmap -F/Users/keithm/Code/LookAndSayProgressive/build/Release -I/Users/keithm/Code/LookAndSayProgressive/build/Release/include -I/sw/local/include -I/opt/local/include -I/usr/local/include -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/DerivedSources/ppc -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/DerivedSources -c /Users/keithm/Code/LookAndSayProgressive/main.c -o /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/ppc/main.o0#
+
+CCompileC build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/ppc/powercurve.o /Users/keithm/Code/LookAndSayProgressive/powercurve.c normal ppc c com.apple.compilers.gcc.4_2
+s306602304.729985
+e306602306.024313
+r1
+xCompileC
+xbuild/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/ppc/powercurve.o
+x/Users/keithm/Code/LookAndSayProgressive/powercurve.c
+xnormal
+xppc
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/keithm/Code/LookAndSayProgressive/powercurve.c306602304#306602306#0(0"0(0#0#53"/Users/keithm/Code/LookAndSayProgressive/powercurve.c8630152320#1655"    cd /Users/keithm/Code/LookAndSayProgressive    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-generated-files.hmap -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-own-target-headers.hmap -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-all-target-headers.hmap -iquote /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-project-headers.hmap -F/Users/keithm/Code/LookAndSayProgressive/build/Release -I/Users/keithm/Code/LookAndSayProgressive/build/Release/include -I/sw/local/include -I/opt/local/include -I/usr/local/include -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/DerivedSources/ppc -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/DerivedSources -c /Users/keithm/Code/LookAndSayProgressive/powercurve.c -o /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/ppc/powercurve.o0#
+
+CCompileC build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/ppc/util.o /Users/keithm/Code/LookAndSayProgressive/util.c normal ppc c com.apple.compilers.gcc.4_2
+s306602304.731022
+e306602306.018538
+r1
+xCompileC
+xbuild/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/ppc/util.o
+x/Users/keithm/Code/LookAndSayProgressive/util.c
+xnormal
+xppc
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/keithm/Code/LookAndSayProgressive/util.c306602304#306602306#0(0"0(0#0#47"/Users/keithm/Code/LookAndSayProgressive/util.c8630068096#1643"    cd /Users/keithm/Code/LookAndSayProgressive    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-generated-files.hmap -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-own-target-headers.hmap -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-all-target-headers.hmap -iquote /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-project-headers.hmap -F/Users/keithm/Code/LookAndSayProgressive/build/Release -I/Users/keithm/Code/LookAndSayProgressive/build/Release/include -I/sw/local/include -I/opt/local/include -I/usr/local/include -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/DerivedSources/ppc -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/DerivedSources -c /Users/keithm/Code/LookAndSayProgressive/util.c -o /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/ppc/util.o0#
+
+CCompileC build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/x86_64/algorithm.o /Users/keithm/Code/LookAndSayProgressive/algorithm.c normal x86_64 c com.apple.compilers.gcc.4_2
+s307106506.353837
+e307106506.746906
+r1
+xCompileC
+xbuild/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/x86_64/algorithm.o
+x/Users/keithm/Code/LookAndSayProgressive/algorithm.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/keithm/Code/LookAndSayProgressive/algorithm.c307106506#307106506#0(0"0(0#0#52"/Users/keithm/Code/LookAndSayProgressive/algorithm.c8615622208#1712"    cd /Users/keithm/Code/LookAndSayProgressive    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O3 -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -funroll-loops -ffast-math -msse3 -mssse3 -fvisibility=hidden -msse4.1 -msse4.2 -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-generated-files.hmap -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-own-target-headers.hmap -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-all-target-headers.hmap -iquote /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-project-headers.hmap -F/Users/keithm/Code/LookAndSayProgressive/build/Release -I/Users/keithm/Code/LookAndSayProgressive/build/Release/include -I/sw/local/include -I/opt/local/include -I/usr/local/include -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/DerivedSources/x86_64 -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/DerivedSources -c /Users/keithm/Code/LookAndSayProgressive/algorithm.c -o /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/x86_64/algorithm.o0#
+
+CCompileC build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/x86_64/expcurve.o /Users/keithm/Code/LookAndSayProgressive/expcurve.c normal x86_64 c com.apple.compilers.gcc.4_2
+s306622116.733932
+e306622116.813022
+r1
+xCompileC
+xbuild/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/x86_64/expcurve.o
+x/Users/keithm/Code/LookAndSayProgressive/expcurve.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/keithm/Code/LookAndSayProgressive/expcurve.c306622116#306622116#0(0"0(0#0#51"/Users/keithm/Code/LookAndSayProgressive/expcurve.c8631758784#1710"    cd /Users/keithm/Code/LookAndSayProgressive    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O3 -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -funroll-loops -ffast-math -msse3 -mssse3 -fvisibility=hidden -msse4.1 -msse4.2 -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-generated-files.hmap -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-own-target-headers.hmap -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-all-target-headers.hmap -iquote /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-project-headers.hmap -F/Users/keithm/Code/LookAndSayProgressive/build/Release -I/Users/keithm/Code/LookAndSayProgressive/build/Release/include -I/sw/local/include -I/opt/local/include -I/usr/local/include -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/DerivedSources/x86_64 -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/DerivedSources -c /Users/keithm/Code/LookAndSayProgressive/expcurve.c -o /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/x86_64/expcurve.o0#
+
+CCompileC build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/x86_64/genes.o /Users/keithm/Code/LookAndSayProgressive/genes.c normal x86_64 c com.apple.compilers.gcc.4_2
+s307129657.779726
+e307129657.897729
+r1
+xCompileC
+xbuild/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/x86_64/genes.o
+x/Users/keithm/Code/LookAndSayProgressive/genes.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/keithm/Code/LookAndSayProgressive/genes.c307129657#307129657#0(0"0(0#0#48"/Users/keithm/Code/LookAndSayProgressive/genes.c8624222432#1704"    cd /Users/keithm/Code/LookAndSayProgressive    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O3 -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -funroll-loops -ffast-math -msse3 -mssse3 -fvisibility=hidden -msse4.1 -msse4.2 -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-generated-files.hmap -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-own-target-headers.hmap -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-all-target-headers.hmap -iquote /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-project-headers.hmap -F/Users/keithm/Code/LookAndSayProgressive/build/Release -I/Users/keithm/Code/LookAndSayProgressive/build/Release/include -I/sw/local/include -I/opt/local/include -I/usr/local/include -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/DerivedSources/x86_64 -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/DerivedSources -c /Users/keithm/Code/LookAndSayProgressive/genes.c -o /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/x86_64/genes.o0#
+
+CCompileC build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/x86_64/hashtable.o /Users/keithm/Code/LookAndSayProgressive/hashtable.c normal x86_64 c com.apple.compilers.gcc.4_2
+s307111256.340351
+e307111256.418054
+r1
+xCompileC
+xbuild/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/x86_64/hashtable.o
+x/Users/keithm/Code/LookAndSayProgressive/hashtable.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/keithm/Code/LookAndSayProgressive/hashtable.c307111256#307111256#0(0"0(0#0#52"/Users/keithm/Code/LookAndSayProgressive/hashtable.c8618130304#1712"    cd /Users/keithm/Code/LookAndSayProgressive    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O3 -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -funroll-loops -ffast-math -msse3 -mssse3 -fvisibility=hidden -msse4.1 -msse4.2 -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-generated-files.hmap -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-own-target-headers.hmap -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-all-target-headers.hmap -iquote /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-project-headers.hmap -F/Users/keithm/Code/LookAndSayProgressive/build/Release -I/Users/keithm/Code/LookAndSayProgressive/build/Release/include -I/sw/local/include -I/opt/local/include -I/usr/local/include -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/DerivedSources/x86_64 -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/DerivedSources -c /Users/keithm/Code/LookAndSayProgressive/hashtable.c -o /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/x86_64/hashtable.o0#
+
+CCompileC build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/x86_64/main.o /Users/keithm/Code/LookAndSayProgressive/main.c normal x86_64 c com.apple.compilers.gcc.4_2
+s307128711.222898
+e307128711.272279
+r1
+xCompileC
+xbuild/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/x86_64/main.o
+x/Users/keithm/Code/LookAndSayProgressive/main.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/keithm/Code/LookAndSayProgressive/main.c: In function 'main':
+o/Users/keithm/Code/LookAndSayProgressive/main.c:150: warning: format '%s' expects type 'char *', but argument 3 has type 'char (*)[256]'
+o/Users/keithm/Code/LookAndSayProgressive/main.c:164: warning: format '%u' expects type 'unsigned int *', but argument 3 has type 'short unsigned int *'
+lSLF07#2@55"Compile /Users/keithm/Code/LookAndSayProgressive/main.c307128711#307128711#0(358"/Users/keithm/Code/LookAndSayProgressive/main.c: In function 'main':/Users/keithm/Code/LookAndSayProgressive/main.c:150: warning: format '%s' expects type 'char *', but argument 3 has type 'char (*)[256]'/Users/keithm/Code/LookAndSayProgressive/main.c:164: warning: format '%u' expects type 'unsigned int *', but argument 3 has type 'short unsigned int *'2(22@74"Format '%s' expects type 'char *', but argument 3 has type 'char (*)[256]'307128711#69#137#0(6@47"/Users/keithm/Code/LookAndSayProgressive/main.c307128638#150#0#150#0#56"format '*' expects type '*', but argument * has type '*'0(22@89"Format '%u' expects type 'unsigned int *', but argument 3 has type 'short unsigned int *'307128711#206#152#0(6@47"/Users/keithm/Code/LookAndSayProgressive/main.c307128638#164#0#164#0#56"format '*' expects type '*', but argument * has type '*'0(0#0#47"/Users/keithm/Code/LookAndSayProgressive/main.c8625659264#1702"    cd /Users/keithm/Code/LookAndSayProgressive    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O3 -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -funroll-loops -ffast-math -msse3 -mssse3 -fvisibility=hidden -msse4.1 -msse4.2 -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-generated-files.hmap -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-own-target-headers.hmap -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-all-target-headers.hmap -iquote /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-project-headers.hmap -F/Users/keithm/Code/LookAndSayProgressive/build/Release -I/Users/keithm/Code/LookAndSayProgressive/build/Release/include -I/sw/local/include -I/opt/local/include -I/usr/local/include -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/DerivedSources/x86_64 -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/DerivedSources -c /Users/keithm/Code/LookAndSayProgressive/main.c -o /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/x86_64/main.o0#
+
+CCompileC build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/x86_64/powercurve.o /Users/keithm/Code/LookAndSayProgressive/powercurve.c normal x86_64 c com.apple.compilers.gcc.4_2
+s306622116.734602
+e306622116.810050
+r1
+xCompileC
+xbuild/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/x86_64/powercurve.o
+x/Users/keithm/Code/LookAndSayProgressive/powercurve.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/keithm/Code/LookAndSayProgressive/powercurve.c306622116#306622116#0(0"0(0#0#53"/Users/keithm/Code/LookAndSayProgressive/powercurve.c8630003968#1714"    cd /Users/keithm/Code/LookAndSayProgressive    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O3 -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -funroll-loops -ffast-math -msse3 -mssse3 -fvisibility=hidden -msse4.1 -msse4.2 -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-generated-files.hmap -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-own-target-headers.hmap -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-all-target-headers.hmap -iquote /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-project-headers.hmap -F/Users/keithm/Code/LookAndSayProgressive/build/Release -I/Users/keithm/Code/LookAndSayProgressive/build/Release/include -I/sw/local/include -I/opt/local/include -I/usr/local/include -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/DerivedSources/x86_64 -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/DerivedSources -c /Users/keithm/Code/LookAndSayProgressive/powercurve.c -o /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/x86_64/powercurve.o0#
+
+CCompileC build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/x86_64/reverse.o /Users/keithm/Code/LookAndSayProgressive/reverse.c normal x86_64 c com.apple.compilers.gcc.4_2
+s307106506.355735
+e307106506.747029
+r1
+xCompileC
+xbuild/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/x86_64/reverse.o
+x/Users/keithm/Code/LookAndSayProgressive/reverse.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/keithm/Code/LookAndSayProgressive/reverse.c307106506#307106506#0(0"0(0#0#50"/Users/keithm/Code/LookAndSayProgressive/reverse.c8615320800#1708"    cd /Users/keithm/Code/LookAndSayProgressive    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O3 -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -funroll-loops -ffast-math -msse3 -mssse3 -fvisibility=hidden -msse4.1 -msse4.2 -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-generated-files.hmap -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-own-target-headers.hmap -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-all-target-headers.hmap -iquote /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-project-headers.hmap -F/Users/keithm/Code/LookAndSayProgressive/build/Release -I/Users/keithm/Code/LookAndSayProgressive/build/Release/include -I/sw/local/include -I/opt/local/include -I/usr/local/include -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/DerivedSources/x86_64 -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/DerivedSources -c /Users/keithm/Code/LookAndSayProgressive/reverse.c -o /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/x86_64/reverse.o0#
+
+CCompileC build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/x86_64/test.o /Users/keithm/Code/LookAndSayProgressive/test.c normal x86_64 c com.apple.compilers.gcc.4_2
+s307106506.357444
+e307106506.747165
+r1
+xCompileC
+xbuild/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/x86_64/test.o
+x/Users/keithm/Code/LookAndSayProgressive/test.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/keithm/Code/LookAndSayProgressive/test.c307106506#307106506#0(0"0(0#0#47"/Users/keithm/Code/LookAndSayProgressive/test.c8617445088#1702"    cd /Users/keithm/Code/LookAndSayProgressive    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O3 -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -funroll-loops -ffast-math -msse3 -mssse3 -fvisibility=hidden -msse4.1 -msse4.2 -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-generated-files.hmap -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-own-target-headers.hmap -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-all-target-headers.hmap -iquote /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-project-headers.hmap -F/Users/keithm/Code/LookAndSayProgressive/build/Release -I/Users/keithm/Code/LookAndSayProgressive/build/Release/include -I/sw/local/include -I/opt/local/include -I/usr/local/include -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/DerivedSources/x86_64 -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/DerivedSources -c /Users/keithm/Code/LookAndSayProgressive/test.c -o /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/x86_64/test.o0#
+
+CCompileC build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/x86_64/util.o /Users/keithm/Code/LookAndSayProgressive/util.c normal x86_64 c com.apple.compilers.gcc.4_2
+s307106506.354815
+e307106506.751055
+r1
+xCompileC
+xbuild/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/x86_64/util.o
+x/Users/keithm/Code/LookAndSayProgressive/util.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/keithm/Code/LookAndSayProgressive/util.c307106506#307106506#0(0"0(0#0#47"/Users/keithm/Code/LookAndSayProgressive/util.c8617899584#1702"    cd /Users/keithm/Code/LookAndSayProgressive    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O3 -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -funroll-loops -ffast-math -msse3 -mssse3 -fvisibility=hidden -msse4.1 -msse4.2 -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-generated-files.hmap -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-own-target-headers.hmap -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-all-target-headers.hmap -iquote /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/LookAndSayProgressive-project-headers.hmap -F/Users/keithm/Code/LookAndSayProgressive/build/Release -I/Users/keithm/Code/LookAndSayProgressive/build/Release/include -I/sw/local/include -I/opt/local/include -I/usr/local/include -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/DerivedSources/x86_64 -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/DerivedSources -c /Users/keithm/Code/LookAndSayProgressive/util.c -o /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/x86_64/util.o0#
+
+CCreateUniversalBinary /Users/keithm/Code/LookAndSayProgressive/build/Release/LookAndSayProgressive normal "x86_64 i386 ppc"
+r0
+
+CGenerateDSYMFile /Users/keithm/Code/LookAndSayProgressive/build/Release/LookAndSayProgressive.dSYM /Users/keithm/Code/LookAndSayProgressive/build/Release/LookAndSayProgressive
+s307129657.912631
+e307129657.920535
+r1
+xGenerateDSYMFile
+x/Users/keithm/Code/LookAndSayProgressive/build/Release/LookAndSayProgressive.dSYM
+x/Users/keithm/Code/LookAndSayProgressive/build/Release/LookAndSayProgressive
+lSLF07#2@93"GenerateDSYMFile build/Release/LookAndSayProgressive.dSYM build/Release/LookAndSayProgressive307129657#307129657#0(0"0(0#0#76"/Users/keithm/Code/LookAndSayProgressive/build/Release/LookAndSayProgressive8624007936#242"    cd /Users/keithm/Code/LookAndSayProgressive    /Developer/usr/bin/dsymutil /Users/keithm/Code/LookAndSayProgressive/build/Release/LookAndSayProgressive -o /Users/keithm/Code/LookAndSayProgressive/build/Release/LookAndSayProgressive.dSYM0#
+
+CLd /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/i386/LookAndSayProgressive normal i386
+s306602500.577968
+e306602500.594148
+r0
+xLd
+x/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/i386/LookAndSayProgressive
+xnormal
+xi386
+old: warning: directory '/Users/keithm/Code/LookAndSayProgressive/build/Release' following -L not found
+old: warning: directory '/sw/local/lib' following -L not found
+old: warning: directory '/opt/local/lib' following -L not found
+old: warning: directory '/Users/keithm/Code/LookAndSayProgressive/build/Release' following -F not found
+old: warning: in /Developer/SDKs/MacOSX10.6.sdk/usr/local/lib/libgsl.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /Developer/SDKs/MacOSX10.6.sdk/usr/local/lib/libgslcblas.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+oUndefined symbols:
+o  "_gsl_fit_linear", referenced from:
+o      _fitExponential in expcurve.o
+o      _fitPower in powercurve.o
+old: symbol(s) not found
+ocollect2: ld returned 1 exit status
+lSLF07#2@157"Link /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/i386/LookAndSayProgressive306602500#306602500#0(857"ld: warning: directory '/Users/keithm/Code/LookAndSayProgressive/build/Release' following -L not foundld: warning: directory '/sw/local/lib' following -L not foundld: warning: directory '/opt/local/lib' following -L not foundld: warning: directory '/Users/keithm/Code/LookAndSayProgressive/build/Release' following -F not foundld: warning: in /Developer/SDKs/MacOSX10.6.sdk/usr/local/lib/libgsl.dylib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /Developer/SDKs/MacOSX10.6.sdk/usr/local/lib/libgslcblas.dylib, file was built for unsupported file format which is not the architecture being linked (i386)Undefined symbols:  "_gsl_fit_linear", referenced from:      _fitExponential in expcurve.o      _fitPower in powercurve.old: symbol(s) not foundcollect2: ld returned 1 exit status11(22@89"Directory '/Users/keithm/Code/LookAndSayProgressive/build/Release' following -L not found306602500#0#103#0(6@0"306602500#0#0#0#0#0"0(22@48"Directory '/sw/local/lib' following -L not found306602500#103#62#0(6@0"306602500#0#0#0#0#0"0(22@49"Directory '/opt/local/lib' following -L not found306602500#165#63#0(6@0"306602500#0#0#0#0#0"0(22@89"Directory '/Users/keithm/Code/LookAndSayProgressive/build/Release' following -F not found306602500#228#103#0(6@0"306602500#0#0#0#0#0"0(22@154"In /Developer/SDKs/MacOSX10.6.sdk/usr/local/lib/libgsl.dylib, file was built for unsupported file format which is not the architecture being linked (i386)306602500#331#168#0(6@0"306602500#0#0#0#0#0"0(22@159"In /Developer/SDKs/MacOSX10.6.sdk/usr/local/lib/libgslcblas.dylib, file was built for unsupported file format which is not the architecture being linked (i386)306602500#499#173#0(6@0"306602500#0#0#0#0#0"0(4@35""_gsl_fit_linear", referenced from:306602500#691#38#0(6@0"306602500#0#0#0#0#0"0(13@29"_fitExponential in expcurve.o306602500#729#36#0(6@0"306602500#0#0#0#0#0"0(13@25"_fitPower in powercurve.o306602500#765#32#0(6@0"306602500#0#0#0#0#0"0(13@19"Symbol(s) not found306602500#797#24#0(6@0"306602500#0#0#0#0#0"0(13@35"Collect2: ld returned 1 exit status306602500#821#36#0(6@0"306602500#0#0#0#0#0"0(0#0#0"8629886400#741"    cd /Users/keithm/Code/LookAndSayProgressive    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/keithm/Code/LookAndSayProgressive/build/Release -L/sw/local/lib -L/opt/local/lib -L/Developer/SDKs/MacOSX10.6.sdk/usr/local/lib -F/Users/keithm/Code/LookAndSayProgressive/build/Release -filelist /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/i386/LookAndSayProgressive.LinkFileList -mmacosx-version-min=10.6 -lgsl -lgslcblas -o /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/i386/LookAndSayProgressive1#
+
+CLd /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/ppc/LookAndSayProgressive normal ppc
+s306602500.578838
+e306602500.594290
+r0
+xLd
+x/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/ppc/LookAndSayProgressive
+xnormal
+xppc
+old: warning: directory '/Users/keithm/Code/LookAndSayProgressive/build/Release' following -L not found
+old: warning: directory '/sw/local/lib' following -L not found
+old: warning: directory '/opt/local/lib' following -L not found
+old: warning: directory '/Users/keithm/Code/LookAndSayProgressive/build/Release' following -F not found
+old: warning: in /Developer/SDKs/MacOSX10.6.sdk/usr/local/lib/libgsl.dylib, file was built for unsupported file format which is not the architecture being linked (ppc)
+old: warning: in /Developer/SDKs/MacOSX10.6.sdk/usr/local/lib/libgslcblas.dylib, file was built for unsupported file format which is not the architecture being linked (ppc)
+oUndefined symbols:
+o  "_gsl_fit_linear", referenced from:
+o      _fitExponential in expcurve.o
+o      _fitPower in powercurve.o
+old: symbol(s) not found
+ocollect2: ld returned 1 exit status
+lSLF07#2@156"Link /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/ppc/LookAndSayProgressive306602500#306602500#0(855"ld: warning: directory '/Users/keithm/Code/LookAndSayProgressive/build/Release' following -L not foundld: warning: directory '/sw/local/lib' following -L not foundld: warning: directory '/opt/local/lib' following -L not foundld: warning: directory '/Users/keithm/Code/LookAndSayProgressive/build/Release' following -F not foundld: warning: in /Developer/SDKs/MacOSX10.6.sdk/usr/local/lib/libgsl.dylib, file was built for unsupported file format which is not the architecture being linked (ppc)ld: warning: in /Developer/SDKs/MacOSX10.6.sdk/usr/local/lib/libgslcblas.dylib, file was built for unsupported file format which is not the architecture being linked (ppc)Undefined symbols:  "_gsl_fit_linear", referenced from:      _fitExponential in expcurve.o      _fitPower in powercurve.old: symbol(s) not foundcollect2: ld returned 1 exit status11(22@89"Directory '/Users/keithm/Code/LookAndSayProgressive/build/Release' following -L not found306602500#0#103#0(6@0"306602500#0#0#0#0#0"0(22@48"Directory '/sw/local/lib' following -L not found306602500#103#62#0(6@0"306602500#0#0#0#0#0"0(22@49"Directory '/opt/local/lib' following -L not found306602500#165#63#0(6@0"306602500#0#0#0#0#0"0(22@89"Directory '/Users/keithm/Code/LookAndSayProgressive/build/Release' following -F not found306602500#228#103#0(6@0"306602500#0#0#0#0#0"0(22@153"In /Developer/SDKs/MacOSX10.6.sdk/usr/local/lib/libgsl.dylib, file was built for unsupported file format which is not the architecture being linked (ppc)306602500#331#167#0(6@0"306602500#0#0#0#0#0"0(22@158"In /Developer/SDKs/MacOSX10.6.sdk/usr/local/lib/libgslcblas.dylib, file was built for unsupported file format which is not the architecture being linked (ppc)306602500#498#172#0(6@0"306602500#0#0#0#0#0"0(4@35""_gsl_fit_linear", referenced from:306602500#689#38#0(6@0"306602500#0#0#0#0#0"0(13@29"_fitExponential in expcurve.o306602500#727#36#0(6@0"306602500#0#0#0#0#0"0(13@25"_fitPower in powercurve.o306602500#763#32#0(6@0"306602500#0#0#0#0#0"0(13@19"Symbol(s) not found306602500#795#24#0(6@0"306602500#0#0#0#0#0"0(13@35"Collect2: ld returned 1 exit status306602500#819#36#0(6@0"306602500#0#0#0#0#0"0(0#0#0"8614414528#738"    cd /Users/keithm/Code/LookAndSayProgressive    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch ppc -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/keithm/Code/LookAndSayProgressive/build/Release -L/sw/local/lib -L/opt/local/lib -L/Developer/SDKs/MacOSX10.6.sdk/usr/local/lib -F/Users/keithm/Code/LookAndSayProgressive/build/Release -filelist /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/ppc/LookAndSayProgressive.LinkFileList -mmacosx-version-min=10.6 -lgsl -lgslcblas -o /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/ppc/LookAndSayProgressive1#
+
+CLd /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/x86_64/LookAndSayProgressive normal x86_64
+s306602450.412595
+e306602450.430467
+r1
+xLd
+x/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/x86_64/LookAndSayProgressive
+xnormal
+xx86_64
+old: warning: directory '/Users/keithm/Code/LookAndSayProgressive/build/Release' following -L not found
+old: warning: directory '/sw/local/lib' following -L not found
+old: warning: directory '/opt/local/lib' following -L not found
+old: warning: directory '/Users/keithm/Code/LookAndSayProgressive/build/Release' following -F not found
+lSLF07#2@159"Link /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/x86_64/LookAndSayProgressive306602450#306602450#0(331"ld: warning: directory '/Users/keithm/Code/LookAndSayProgressive/build/Release' following -L not foundld: warning: directory '/sw/local/lib' following -L not foundld: warning: directory '/opt/local/lib' following -L not foundld: warning: directory '/Users/keithm/Code/LookAndSayProgressive/build/Release' following -F not found4(22@89"Directory '/Users/keithm/Code/LookAndSayProgressive/build/Release' following -L not found306602450#0#103#0(6@0"306602450#0#0#0#0#0"0(22@48"Directory '/sw/local/lib' following -L not found306602450#103#62#0(6@0"306602450#0#0#0#0#0"0(22@49"Directory '/opt/local/lib' following -L not found306602450#165#63#0(6@0"306602450#0#0#0#0#0"0(22@89"Directory '/Users/keithm/Code/LookAndSayProgressive/build/Release' following -F not found306602450#228#103#0(6@0"306602450#0#0#0#0#0"0(0#0#0"8629301664#747"    cd /Users/keithm/Code/LookAndSayProgressive    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/keithm/Code/LookAndSayProgressive/build/Release -L/sw/local/lib -L/opt/local/lib -L/Developer/SDKs/MacOSX10.6.sdk/usr/local/lib -F/Users/keithm/Code/LookAndSayProgressive/build/Release -filelist /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/x86_64/LookAndSayProgressive.LinkFileList -mmacosx-version-min=10.6 -lgsl -lgslcblas -o /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/x86_64/LookAndSayProgressive0#
+
+CLd /Users/keithm/Code/LookAndSayProgressive/build/Release/LookAndSayProgressive normal x86_64
+s307129657.897898
+e307129657.912556
+r1
+xLd
+x/Users/keithm/Code/LookAndSayProgressive/build/Release/LookAndSayProgressive
+xnormal
+xx86_64
+lSLF07#2@81"Link /Users/keithm/Code/LookAndSayProgressive/build/Release/LookAndSayProgressive307129657#307129657#0(0"0(0#0#0"8618837728#589"    cd /Users/keithm/Code/LookAndSayProgressive    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/keithm/Code/LookAndSayProgressive/build/Release -F/Users/keithm/Code/LookAndSayProgressive/build/Release -filelist /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Release/LookAndSayProgressive.build/Objects-normal/x86_64/LookAndSayProgressive.LinkFileList -mmacosx-version-min=10.6 -lgsl -lgslcblas -o /Users/keithm/Code/LookAndSayProgressive/build/Release/LookAndSayProgressive0#
+

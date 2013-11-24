@@ -1,0 +1,104 @@
+﻿LookAndSay.exe
+==============
+
+Version 3.1 - 2010-09-20 - "progressive / recursive" algorithm
+
+Windows native binary, written in ANSI C and compiled with 
+Visual Studio C++ 2008 switched from 'C++' to 'Compile as C' mode.
+
+The application will just run with default settings (10 iterations)
+- this is useful to smoke test functionality. However, several options are 
+available:
+
+Usage
+-----
+
+Usage: 
+LookAndSayProgressive -t<time-in-millis> | -n<iterations> [-o<file>] [-r|-f] [-p1|-p2]
+
+    -t<time> : calculates expected iterations in time, and runs that many
+    -n<num>  : run 'n' iterations
+    -o<file> : write output to <file> - default is stdout
+    -f       : use forward algorithm (optional)
+    -r       : use reverse algorithm (default)
+    -p1      : set windows priority to 'above normal'
+    -p2      : set windows priority to 'high'
+
+Output is to stdout unless -o is used - additional messages go to stderr.
+
+Sample command line, limiting to 5 minutes:
+
+	LookAndSayProgressive.exe -t300000 -p1 -ooutput.txt
+
+Sample command line, limited to 82 iterations:
+
+	LookAndSayProgressive.exe -n82 -p1 -ooutput.txt
+
+	
+Algorithms
+----------
+
+The progressive algorithm has the peculiarity that it needs to know how many
+iterations to run in advance. This makes it slightly volatile when attempting
+to run for a specified amount of time. There is no point stopping it in 
+advance, as it will not have completed the majority of iterations.
+
+The "forward" version of the algorithm is included for historic purposes and
+because it's a little bit easier to understand the code... The reverse one
+should be used for the final run (and is the default) as it is marginally
+more efficient and is guaranteed to work up to large numbers of iterations
+whereas the forward one may become unstable above 90+ iterations.
+
+Calibration
+-----------
+
+The software has a built-in calibration routine, which runs for 10-15 seconds
+at the start when a time has been set (included in the timing). Although
+generally close, on my laptop it has proven slightly unreliable (even 1 
+iteration out can mean it will run way over the allocated time). For this
+reason I am providing specific iteration counts that should be used instead
+for particular time periods, when the software is run on a dual-core
+Centrino 1.2GHz machine:
+
+	1 minute : 76 iterations (-n76)
+	2 minutes: 78 iterations (-n78) 
+	3 minutes: 80 iterations (-n80)
+	4 minutes: 81 iterations (-n81)
+	5 minutes: 82 iterations (-n82)
+	6+ minutes: 83 iterations (-n83)
+	8+ minutes: 84 iterations (-n84)
+	10+ minutes: 85 iterations (-n85)
+	
+ - if alternative time periods are required, or alternative hardware used, 
+the run should revert back to specifying the time in milliseconds on the
+command line, and the software will attempt to pre-calibrate the system.
+In an ideal world, if calibration is used, it would be best to do several
+runs and take the best one.
+
+Windows Priority
+----------------- 
+If nothing else is running on the machine, this should not be necesary. 
+However, using -p1 should allow the software to take priority over any 
+normal-priority background processes, so is advised. If other processes are
+running, then -p2 should be used.
+
+It is STRONGLY advised not to run with the machine connected to the BMA 
+office network as this causes serious interference and unpredictability.
+
+NB: this version has a very low memory footprint - ~1Mb or less.
+
+Source
+------
+The source code as provided requires the GNU Scientific Library (GSL) to work,
+as the calibration routine uses linear regression from this library to 
+extrapolate the predicted iteration count. The library is not used for the
+core algorithm, however.
+
+See: http://www.gnu.org/software/gsl/
+
+The provided binary was linked against precompiled libraries from this page:
+
+	http://david.geldreich.free.fr/dev.html
+
+--
+Keith Marshall - 2010-09-20.
