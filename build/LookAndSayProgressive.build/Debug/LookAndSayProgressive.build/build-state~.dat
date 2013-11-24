@@ -1,97 +1,0 @@
-TLookAndSayProgressive
-v7
-r0
-t306601454.716029
-cCheck dependencies
-cCompileC build/LookAndSayProgressive.build/Debug/LookAndSayProgressive.build/Objects-normal/x86_64/main.o /Users/keithm/Code/LookAndSayProgressive/main.c normal x86_64 c com.apple.compilers.gcc.4_2
-cLd /Users/keithm/Code/LookAndSayProgressive/build/Debug/LookAndSayProgressive normal x86_64
-
-N/Developer/SDKs/MacOSX10.6.sdk
-c000000004C5342BA00000000000000EE
-t1280524986
-s238
-
-N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
-c000000004AC59C820000000000004174
-t1254464642
-s16756
-
-N/Users/keithm/Code/LookAndSayProgressive/build/Debug/LookAndSayProgressive
-t2
-s0
-
-N/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Debug/LookAndSayProgressive.build/Objects-normal/x86_64/LookAndSayProgressive.LinkFileList
-c000000004C96266E000000000000008A
-t1284908654
-s138
-
-N/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Debug/LookAndSayProgressive.build/Objects-normal/x86_64/main.o
-t1284908654
-s9008
-
-N/Users/keithm/Code/LookAndSayProgressive/main.c
-c000000004C95F6C90000000000000E77
-t1284896457
-s3703
-i<stdio.h>
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies306601454#306601454#0(0"0(0#1#0"8629995360#0"0#
-
-CCompileC build/LookAndSayProgressive.build/Debug/LookAndSayProgressive.build/Objects-normal/x86_64/main.o /Users/keithm/Code/LookAndSayProgressive/main.c normal x86_64 c com.apple.compilers.gcc.4_2
-s306601454.608102
-e306601454.678435
-r1
-xCompileC
-xbuild/LookAndSayProgressive.build/Debug/LookAndSayProgressive.build/Objects-normal/x86_64/main.o
-x/Users/keithm/Code/LookAndSayProgressive/main.c
-xnormal
-xx86_64
-xc
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@55"Compile /Users/keithm/Code/LookAndSayProgressive/main.c306601454#306601454#0(0"0(0#0#47"/Users/keithm/Code/LookAndSayProgressive/main.c8612975008#1544"    cd /Users/keithm/Code/LookAndSayProgressive    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Debug/LookAndSayProgressive.build/LookAndSayProgressive-generated-files.hmap -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Debug/LookAndSayProgressive.build/LookAndSayProgressive-own-target-headers.hmap -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Debug/LookAndSayProgressive.build/LookAndSayProgressive-all-target-headers.hmap -iquote /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Debug/LookAndSayProgressive.build/LookAndSayProgressive-project-headers.hmap -F/Users/keithm/Code/LookAndSayProgressive/build/Debug -I/Users/keithm/Code/LookAndSayProgressive/build/Debug/include -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Debug/LookAndSayProgressive.build/DerivedSources/x86_64 -I/Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Debug/LookAndSayProgressive.build/DerivedSources -c /Users/keithm/Code/LookAndSayProgressive/main.c -o /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Debug/LookAndSayProgressive.build/Objects-normal/x86_64/main.o0#
-
-CLd /Users/keithm/Code/LookAndSayProgressive/build/Debug/LookAndSayProgressive normal x86_64
-s306601454.678514
-e306601454.716001
-r0
-xLd
-x/Users/keithm/Code/LookAndSayProgressive/build/Debug/LookAndSayProgressive
-xnormal
-xx86_64
-oUndefined symbols:
-o  "_projectedIterationsInMillisExp", referenced from:
-o      _testTime in main.o
-o      _extrapolateMax in main.o
-o  "_fitExponential", referenced from:
-o      _fitCurve in main.o
-o      _extrapolateMax in main.o
-o  "_algorithmNext", referenced from:
-o      _extrapolateMax in main.o
-o      _main in main.o
-o  "_getCurrentTimeMillis", referenced from:
-o      _extrapolateMax in main.o
-o      _extrapolateMax in main.o
-o      _extrapolateMax in main.o
-o      _main in main.o
-o  "_printOn", referenced from:
-o      _main in main.o
-o  "_printIteration", referenced from:
-o      _main in main.o
-o      _main in main.o
-o  "_algorithmInit", referenced from:
-o      _extrapolateMax in main.o
-o      _main in main.o
-o  "_algorithmDestroy", referenced from:
-o      _extrapolateMax in main.o
-o      _main in main.o
-o  "_startTimeMillis", referenced from:
-o      _extrapolateMax in main.o
-o      _main in main.o
-o  "_projectedTimeInMillisExp", referenced from:
-o      _testIterations in main.o
-old: symbol(s) not found
-ocollect2: ld returned 1 exit status
-lSLF07#2@79"Link /Users/keithm/Code/LookAndSayProgressive/build/Debug/LookAndSayProgressive306601454#306601454#0(1033"Undefined symbols:  "_projectedIterationsInMillisExp", referenced from:      _testTime in main.o      _extrapolateMax in main.o  "_fitExponential", referenced from:      _fitCurve in main.o      _extrapolateMax in main.o  "_algorithmNext", referenced from:      _extrapolateMax in main.o      _main in main.o  "_getCurrentTimeMillis", referenced from:      _extrapolateMax in main.o      _extrapolateMax in main.o      _extrapolateMax in main.o      _main in main.o  "_printOn", referenced from:      _main in main.o  "_printIteration", referenced from:      _main in main.o      _main in main.o  "_algorithmInit", referenced from:      _extrapolateMax in main.o      _main in main.o  "_algorithmDestroy", referenced from:      _extrapolateMax in main.o      _main in main.o  "_startTimeMillis", referenced from:      _extrapolateMax in main.o      _main in main.o  "_projectedTimeInMillisExp", referenced from:      _testIterations in main.old: symbol(s) not foundcollect2: ld returned 1 exit status32(4@51""_projectedIterationsInMillisExp", referenced from:306601454#19#54#0(6@0"306601454#0#0#0#0#0"0(13@19"_testTime in main.o306601454#73#26#0(6@0"306601454#0#0#0#0#0"0(13@25"_extrapolateMax in main.o306601454#99#32#0(6@0"306601454#0#0#0#0#0"0(4@35""_fitExponential", referenced from:306601454#131#38#0(6@0"306601454#0#0#0#0#0"0(13@19"_fitCurve in main.o306601454#169#26#0(6@0"306601454#0#0#0#0#0"0(13@25"_extrapolateMax in main.o306601454#195#32#0(6@0"306601454#0#0#0#0#0"0(4@34""_algorithmNext", referenced from:306601454#227#37#0(6@0"306601454#0#0#0#0#0"0(13@25"_extrapolateMax in main.o306601454#264#32#0(6@0"306601454#0#0#0#0#0"0(13@15"_main in main.o306601454#296#22#0(6@0"306601454#0#0#0#0#0"0(4@41""_getCurrentTimeMillis", referenced from:306601454#318#44#0(6@0"306601454#0#0#0#0#0"0(13@25"_extrapolateMax in main.o306601454#362#32#0(6@0"306601454#0#0#0#0#0"0(13@25"_extrapolateMax in main.o306601454#394#32#0(6@0"306601454#0#0#0#0#0"0(13@25"_extrapolateMax in main.o306601454#426#32#0(6@0"306601454#0#0#0#0#0"0(13@15"_main in main.o306601454#458#22#0(6@0"306601454#0#0#0#0#0"0(4@28""_printOn", referenced from:306601454#480#31#0(6@0"306601454#0#0#0#0#0"0(13@15"_main in main.o306601454#511#22#0(6@0"306601454#0#0#0#0#0"0(4@35""_printIteration", referenced from:306601454#533#38#0(6@0"306601454#0#0#0#0#0"0(13@15"_main in main.o306601454#571#22#0(6@0"306601454#0#0#0#0#0"0(13@15"_main in main.o306601454#593#22#0(6@0"306601454#0#0#0#0#0"0(4@34""_algorithmInit", referenced from:306601454#615#37#0(6@0"306601454#0#0#0#0#0"0(13@25"_extrapolateMax in main.o306601454#652#32#0(6@0"306601454#0#0#0#0#0"0(13@15"_main in main.o306601454#684#22#0(6@0"306601454#0#0#0#0#0"0(4@37""_algorithmDestroy", referenced from:306601454#706#40#0(6@0"306601454#0#0#0#0#0"0(13@25"_extrapolateMax in main.o306601454#746#32#0(6@0"306601454#0#0#0#0#0"0(13@15"_main in main.o306601454#778#22#0(6@0"306601454#0#0#0#0#0"0(4@36""_startTimeMillis", referenced from:306601454#800#39#0(6@0"306601454#0#0#0#0#0"0(13@25"_extrapolateMax in main.o306601454#839#32#0(6@0"306601454#0#0#0#0#0"0(13@15"_main in main.o306601454#871#22#0(6@0"306601454#0#0#0#0#0"0(4@45""_projectedTimeInMillisExp", referenced from:306601454#893#48#0(6@0"306601454#0#0#0#0#0"0(13@25"_testIterations in main.o306601454#941#32#0(6@0"306601454#0#0#0#0#0"0(13@19"Symbol(s) not found306601454#973#24#0(6@0"306601454#0#0#0#0#0"0(13@35"Collect2: ld returned 1 exit status306601454#997#36#0(6@0"306601454#0#0#0#0#0"0(0#0#0"8612733280#564"    cd /Users/keithm/Code/LookAndSayProgressive    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/keithm/Code/LookAndSayProgressive/build/Debug -F/Users/keithm/Code/LookAndSayProgressive/build/Debug -filelist /Users/keithm/Code/LookAndSayProgressive/build/LookAndSayProgressive.build/Debug/LookAndSayProgressive.build/Objects-normal/x86_64/LookAndSayProgressive.LinkFileList -mmacosx-version-min=10.6 -o /Users/keithm/Code/LookAndSayProgressive/build/Debug/LookAndSayProgressive1#
-
